@@ -7,7 +7,8 @@ representing the input x and the second column contains class C label (1, 2 or 3
 You should use the training instances to estimate the parameters, which are the class priors and the
 parameters of the Gaussian densities, namely means and variances. The test instances, unused
 during training, is used to estimate the generalization performance of your model.
-<b> 1) </b> Plot the likelihood and posterior distributions, together with the training and test data instances
+
+1) Plot the likelihood and posterior distributions, together with the training and test data instances
 on the same plot. Use different colors/symbols for different distributions and classes.
 2) Calculate the performance of the model:
 a) Assume 0/1 loss and calculate the 3x3 confusion matrices of your model on both on the
